@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test023.html</title>
+
+<style type="text/css">
+	* {font-family: 나눔고딕코딩; font-size: large; font-weight: bolder;}
+	input:focus {background-color: #eeeedd;}
+	input.btn {width: 150px; font-weight: bold;}
+	input.btn:hover {color: orange;}
+	input.btn:active {color: red;}
+	td {text-align: center;}
+	.txt {text-align: right;}
+	textarea {font-family: 나눔고딕코딩; font-weight: bold;}
+</style>
+
+<script type="text/javascript">
+
+	function addScore()
+	{	
+		var arr = new Array();
+		var n = 0;
+		
+		// 성적 입력 받기
+		do
+		{
+			var temp = prompt("이름 국어 영어 수학 (" + (n+1) + ")");
+			
+			if(temp==null || temp=="." || temp==" " || temp=="")
+				break;
+
+			arr[n] = temp.split(" ");
+			
+			// 총점 계산
+			arr[n][4] = Number(arr[n][1]) + Number(arr[n][2]) + Number(arr[n][3]);
+			
+			// 등수 초기화
+			arr[n][5] = 1;			
+			
+			n++;			
+		} while (true);
+		
+		// 나의 풀이: 배열을 만들어서, 그 안에 n번째 학생의 정보를 배열 형태로 차례대로 넣는다.
+		//		 		→ ((이름1, 국어1, 영어1, 수학1, 총점1, 등수1), (이름2, ...), ...)
+		// 선생님의 풀이: 이름, 국어, 영어, 수학, 총점, 등수 배열을 만들어서, 그 안에 차례대로 넣는다.
+		//				→ (이름1, 이름2, ...), (국어1, 국어2, ...), ...
+		
+		
+		// 등수 계산
+		for (var i = 0; i < arr.length-1; i++)
+		{
+			for (var j = i+1; j < arr.length; j++)
+			{
+				if(arr[i][4] < arr[j][4])
+					arr[i][5]++;
+				else if(arr[i][4] > arr[j][4])
+					arr[j][5]++;
+			}			  
+		}
+
+		
+		// 출력
+		document.getElementById("txtCount").value = arr.length;
+		document.getElementById("txtResult").value = " 이름  국어 영어 수학  총점 등수\n";
+		for (var n=0; n<arr.length; n++)
+		{
+			for (var i=0; i<arr[n].length; i++)
+				document.getElementById("txtResult").value += arr[n][i] + "   ";	
+			document.getElementById("txtResult").value += "\n";
+		} 
+	}
+
+</script>
+
+</head>
+<body>
+
+<!-- 
+	『prompt()』를 활용하여 여러 명의 성적 데이터를 입력받고,
+	등수를 부여하여, 리스트를 출력하는 페이지를 구성한다.
+	HTML, CSS, Javascript 활용
+	
+	페이지 레이아웃
+	------------------------------------ prompt()
+	< 성적 정보 입력 > →→→→→→→→→→→→→→ 이름 국어 영어 수학(1):
+	
+	전체 인원 수: [		]명
+	--------------------------------------
+	이름   국어  영어  수학  총점  등수
+	--------------------------------------
+	채지윤  80    70    60    xxx    2등
+	이중호  90    80    70    xxx    1등
+	최수지  70    60    50    xxx    3등
+					:
+					:
+	--------------------------------------
+-->
+
+<div>
+	<h1>자바스크립트 활용: 프롬프트</h1>
+	<hr>
+</div>
+
+<div>
+	<form>
+		<input type="button" value="성적정보입력" class="btn" style="width: 350pt;" onclick="addScore()">
+		<br><br>
+		전체 인원 수 : 
+		<input type="text" id="txtCount" class="txt" readonly="readonly" style="width: 20pt;"> 명
+		<br><br>
+		<textarea rows="10" cols="35" id="txtResult" readonly="readonly"></textarea> 
+	</form>
+</div>
+</body>
+</html>

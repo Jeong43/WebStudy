@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test025.html</title>
+
+<style type="text/css">
+	* {color:#223322; font-family: 나눔고딕코딩; font-size: large; font-weight: bolder;}
+	input:focus {background-color: #eeeedd;}
+	.btn {width: 150px; font-weight: bold;}
+	.btn:hover {color: orange;}
+	.btn:active {color: red;}
+	td {text-align: right;}
+	.txt {text-align: left; font-weight: bold;}
+</style>
+
+<script type="text/javascript">
+
+	function actionCalendar()
+	{
+		//alert("함수호출확인");
+		
+		// 주요 변수 선언
+		var year = parseInt(document.getElementById("txtYear").value);
+		var month = parseInt(document.getElementById("txtMonth").value);
+		var week = weeks(year, month);	// 0 → 월요일
+		var lastDay = calLastDay(year, month);
+		
+		//alert(year + " " + month + " " + week + " " + lastDay);
+				
+		
+		// 연산 및 처리
+		var tableNode = document.getElementById("calendarTbl");
+		var trNode = document.createElement("tr");
+		
+		// 공백 출력
+		for (var i = 0; i <= week; i++)
+		{ 
+			if(week == 6)
+				break;
+						
+			trNode.appendChild(createTdNode(""));
+			tableNode.appendChild(trNode);
+		}
+		
+		// 날짜 출력
+		for (var i = 1; i <= lastDay; i++)
+		{	
+			if((week+i)%7 == 0)
+				trNode = document.createElement("tr");
+			
+			trNode.appendChild(createTdNode(i));
+			tableNode.appendChild(trNode);
+		} 			
+	}	
+	
+	
+	function createTdNode(val)
+	{
+		var textNode = document.createTextNode(val);
+		var tdNode = document.createElement("td");
+		tdNode.appendChild(textNode);
+		return tdNode;		
+	}
+	
+	
+	// 연, 월을 입력 받아 그 달의 시작하는 요일을 구하는 함수 
+	function weeks(year, month)
+	{
+		var months = [31, 0, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+		var nalsu;
+
+		// 윤년에 따른 2월의 날 수 계산
+		// 입력년도가 윤년이라면... 2월의 마지막 날짜를 29일로 설정
+		// 입력년도가 평년이라면... 2월의 마지막 날짜를 28일로 설정
+		if (year%4==0 && year%100!=0 || year%400==0)
+			months[1] = 29;
+		else 
+			months[1] = 28;
+
+		// 1. 1년 1월 1일 부터 입력받은 년도의 이전 년도 12월 31일 까지의 날 수 계산
+		nalsu = (year-1)*365 + (year-1)/4 - (year-1)/100 + (year-1)/400;
+
+		// 2. 입력받은 월의 이전 월 까지의 날 수 계산 후
+		//    이 계산 결과를 1번 결과에 더하는 연산
+		for (var i=0; i<month-1; i++)			//-- i<(m-1) check~!!!
+			nalsu += months[i];
+
+		// 3. 계산한 날수를 통해 그 달의 시작 날짜 계산
+		var week = ++nalsu % 7;		// 전체날수 % 7 == 0 → 월요일
+		week = Math.floor(week);		
+		
+		// 최종 결과값 반환
+		return week;
+	}
+	
+	// 연, 월을 입력 받아 그 달의 마지막 날짜를 구하는 함수 
+	function calLastDay(year, month)
+	{
+		var months = [31, 0, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+		
+		if (year%4==0 && year%100!=0 || year%400==0)
+			months[1] = 29;
+		else 
+			months[1] = 28;
+
+		// 해당하는 월 찾기
+		var lastDay = months[month-1];
+		
+		// 최종 결과값 반환
+		return lastDay;
+	}
+
+</script>
+
+
+</head>
+<body>
+
+<div>
+	<h1>테이블 동적 생성으로 만년달력 그리기</h1>
+	<hr>
+</div>
+
+<div>
+	<form>
+		<input type="text" id="txtYear" class="txt" style="width: 67px;"> 년
+		<input type="text" id="txtMonth" class="txt" style="width: 67px;"> 월
+		<br><br>
+		
+		<button type="button" class="btn" style="width: 200px;" onclick="actionCalendar()">만년달력 그리기</button>
+		<br><br>
+		
+		<table border="1" id="calendarTbl">
+			<tr>
+				<th>일</th>
+				<th>월</th>
+				<th>화</th>
+				<th>수</th>
+				<th>목</th>
+				<th>금</th>
+				<th>토</th>
+			</tr>
+		</table>
+	</form>
+</div>
+
+
+</body>
+</html>

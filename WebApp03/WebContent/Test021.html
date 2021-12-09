@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test021.html</title>
+
+<style type="text/css">
+	* {font-family: 나눔고딕코딩; font-size: large; font-weight: bolder;}
+	input:focus {background-color: #eeeedd;}
+	input.btn {width: 150px; font-weight: bold;}
+	input.btn:hover {color: orange;}
+	input.btn:active {color: red;}
+	td {text-align: center;}
+	.txt {text-align: right;}
+	textarea {font-family: 나눔고딕코딩; font-weight: bold;}
+</style>
+
+<script type="text/javascript">
+	
+	function actionPerformed()
+	{	
+		// 주요 변수 선언
+		var str = document.getElementById("array1").value;
+		var arr = str.split(" ");	//-- 1차원 배열 반환
+				
+		// 1. 전체 출력
+		// -> 방법1
+		//document.getElementById("array2").value = arr;	//--==>> 21,86,285,43,7
+		
+		// -> 방법2
+		var allStr = "";
+		for (var n=0; n<arr.length; n++)
+			allStr += arr[n] + " ";
+		document.getElementById("array2").value = allStr;
+
+		
+		// 2. 가장 큰 수
+		var max = Number(arr[0]);
+		for (var i=0; i<arr.length; i++)
+		{
+			if(Number(arr[i]) > max)
+				max = Number(arr[i]);
+		}
+		document.getElementById("max").value = max;
+		
+		// 테스트
+		//alert(arr[2]);
+		//alert("완료!");		
+	}
+	
+</script>
+
+</head>
+<body>
+
+<!-- 
+	사용자로부터 임의의 정수를 임의의 갯수만큼 입력받고,
+	그 내용으로 배열을 구성하여
+	구성한 정수들 중 가장 큰 수를 출력해 줄 수 있는 페이지를 구현한다.
+	HTML, CSS, Javascript 활용.
+	
+	페이지 레이아웃
+	--------------------------------------
+	데이터 입력(공백 구분) [21 86 285 43 7]
+		< 결과 확인 >
+	
+	- 전체 출력  [21 86 285 43 7]
+	- 가장 큰 수 [		285		]
+	--------------------------------------
+-->
+
+</body>
+
+<div>
+	<h1>자바스크립트 활용: 배열 입력</h1>
+	<hr>
+</div>
+
+<div>
+	<form>
+		<div>
+			데이터 입력(공백 구분)
+			<input type="text" id="array1" class="txt"><br><br>
+			<input type="button" class="btn" value="결과확인" style="width: 300px" onclick="actionPerformed()"><br><br>
+			- 전체 출력
+			<input type="text" id="array2" class="txt" readonly="readonly"><br><br>
+			- 가장 큰 수
+			<input type="text" id="max" class="txt" readonly="readonly"><br><br>
+		</div>
+	</form>
+</div>
+
+
+</html>

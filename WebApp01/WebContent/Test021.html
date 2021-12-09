@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test021.html</title>
+</head>
+<body>
+
+<div>
+	<h1>전송, 취소 버튼 만들기</h1>
+	<hr>
+</div>
+
+<div>
+	<!-- 데이터 전송 및 페이지 요청 -->
+	<form action="http://localhost:8090/WebApp01/Test022.html">
+		*이름 <input type="text" name="name" size="15" maxlength="8">
+		<br>
+		*이메일 <input type="text" name="email" size="15" maxlength="20">
+		<br>
+		*하고싶은 말<br>
+		<textarea rows="10" cols="50" name="field"></textarea>
+		<br><br>
+		
+		<input type="submit" value="전송하기" name="submitBtn">
+		
+		<br><br>
+		
+		<input type="button" value="test1"> 		<!-- 여닫는 태그 X -->
+		<button type="button">test2</button> 		<!-- 여닫는 태그 O → 이미지버튼 만들기 가능 -->
+		<button type="button">
+			<img alt="" src="images/btn_03.png"> 	<!-- 여닫는 태그 O → 이미지버튼 만들기 -->
+		</button>
+		
+		<button type="submit">test3</button>
+		<input type="submit" value="test4">
+		<button>test5</button>
+		
+		<br><br>	
+		
+		
+		<input type="reset" value="다시쓰기">		
+	</form>
+</div>
+
+
+</body>
+</html>

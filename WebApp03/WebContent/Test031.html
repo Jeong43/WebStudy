@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test031.html</title>
+
+<style type="text/css">
+   * 
+   {
+      background-color: antique white; 
+      font-weight: bold; 
+      font-family: "Yu Gothic"; 
+      /* text-align: center; */
+   }
+    input { border-radius: 20px; width: 300px; height: 30px;}
+    select { border-radius: 20px; width: 200px; height: 30px;}
+    
+    input:focus { background-color: #FFEFD5;}
+    .btn:hover {color: #FF1493;}
+    .btn 
+    {
+        background-color:silver ;
+        color: white;
+        border-radius: 20px;
+        width: 200px; height: 35px;
+        font-size: 16px;
+    }
+   table {font-size:18px;}
+   #memberList {text-align: center;}
+</style>
+
+<script type="text/javascript">
+	
+	//select를 다뤄보기 위한 테스트 함수 정의
+	function selectTest()
+	{	
+		// 확인
+		//alert("함수호출확인");
+		
+		/*
+		// 첫 번째 방법
+		//var position = document.getElementById("userPosition").value;
+		//alert(position);	//--==>> vfr(사원)
+		*/
+		
+		
+		/* 
+		// 두 번째 방법
+		var positionObj = document.getElementById("userPosition");
+		var positionOptions = positionObj.options;
+		var positionMsg = "";
+				
+		// 확인
+		//alert(positionOptions);
+		//--==>> 자바스크립트 배열 → [object HTMLOptionsCollection]
+		
+		for (var i=0; i<positionOptions.length; i++)
+		{
+			// 확인
+			//alert(positionOptions[i].selected);
+			//--==>> 리스트 선택한 값에 따라 true / false 형태로 확인
+			
+			if (positionOptions[i].selected)   
+	         {
+	            // 단일 선택
+	            positionMsg = positionOptions[i].value;
+	            break;
+	            
+	            // 다중 선택
+	            //positionMsg += positionOptions[i].value; + " ";
+	         }
+		}	    
+		alert(positionMsg);
+		//--==>> zaq(부장) 
+		*/
+		
+		
+		/*
+		// 세 번째 방법
+		var positionObj = document.getElementById("userPosition");
+		//alert(positionObj);
+	    //--==>> [object HTMLSelectElement]
+		
+		// 확인
+		//alert(positionObj.selectedIndex);
+		//--==>> 부장:0, 과장:1, 대리:2, 사원:3
+		
+		// 확인
+		//alert(positionObj.options[2].value);
+		//--==>> cde(대리)
+		
+		//var positionMsg = positionObj.options[?].value;
+		var positionMsg = positionObj.options[positionObj.selectedIndex].value; 
+		//alert(positionMsg);
+		*/
+	}
+	
+
+	function addMember()
+	{
+		//확인
+		//alert("함수호출확인");
+		
+		var uName = document.getElementById("userName").value;
+		var uSsn = document.getElementById("userSsn").value;
+		
+		var cityObj = document.getElementById("userCity");
+		//alert(cityObj.selectedIndex);
+		//--==>> 서울:0, 대전:1, 광주:2, 대구:3
+		//alert(cityObj.options[cityObj.selectedIndex].value);
+		//--==>> 1123(서울), ...
+		
+		var uCity = cityObj.options[cityObj.selectedIndex].value;
+		
+		//부서
+		var buseoObj = document.getElementById("userDepartment");
+		var uBuseo = buseoObj.options[cityObj.selectedIndex].value;
+
+		//직위
+		var positionObj = document.getElementById("userPosition");
+		var uPosition = positionObj.options[cityObj.selectedIndex].value;
+		
+		var uBasicPay = document.getElementById("userBasicPay").value;
+		
+		
+		// 테이블 그리기--------------------------------------------
+		var tableNode = document.getElementById("memberList");
+		var trNode = document.createElement("tr");
+		
+		trNode.appendChild(createTdNode(uName));
+		trNode.appendChild(createTdNode(uSsn));
+		trNode.appendChild(createTdNode(uCity));
+		trNode.appendChild(createTdNode(uBuseo));
+		trNode.appendChild(createTdNode(uPosition));
+		trNode.appendChild(createTdNode(uBasicPay));
+		
+		tableNode.appendChild(trNode);		
+		// ----------------------------------------------- 테이블 그리기
+		
+		//formClear();
+		document.forms[0].reset();
+		document.getElementById("userName").focus();
+	}
+	
+	
+	function createTdNode(val)
+	{
+		var textNode = document.createTextNode(val);
+		var tdNode = document.createElement("td");
+		tdNode.appendChild(textNode);
+		return tdNode;		
+	}
+		
+	
+	function formClear()
+	{
+		document.getElementById("userName").value = "";
+		document.getElementById("userSsn").value = "";
+		
+		var cityObj = document.getElementById("userCity");
+		cityObj.options[0].selected=true;
+		
+		document.getElementById("userBasicPay").value = "";
+	}
+	
+	
+</script>
+
+</head>
+<body>
+
+<div>
+	<h1>자바스크립트 활용</h1>
+	<hr>
+</div>
+
+<div>
+	<h2>선택목록(select) 다루기</h2>
+	
+	<form>
+		<table>
+			<tr>
+				<td>이름</td>
+				<td><input type="text" id="userName"></td>
+			</tr>
+			<tr>
+				<td>주민번호</td>
+				<td><input type="text" id="userSsn"></td>
+			</tr>
+			<tr>
+				<td>지역</td>
+				<td>
+					<!-- <input type="text" id="userCity"> -->
+					<select id="userCity">
+						<option value="1123(서울)">서울</option>
+						<option value="1124(대전)">대전</option>
+						<option value="1125(광주)">광주</option>
+						<option value="1126(대구)">대구</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>부서</td>
+				<td>
+					<!-- <input type="text" id="userDepartment"> -->
+					<select id="userDepartment">
+						<option value="9987(개발부)">개발부</option>
+						<option value="9988(인사부)">인사부</option>
+						<option value="9989(자재부)">자재부</option>
+						<option value="9990(영업부)" selected="selected">영업부</option>
+						<option value="9991(총무부)">총무부</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>직위</td>
+				<td>
+					<!-- <input type="text" id="userPosition"> -->
+					<select id="userPosition">
+						<option value="zaq(부장)">부장</option>
+						<option value="xsw(과장)">과장</option>
+						<option value="cde(대리)">대리</option>
+						<option value="vfr(사원)">사원</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>기본급</td>
+				<td><input type="text" id="userBasicPay"></td>
+			</tr>
+		</table>
+		
+		<input type="button" value="직원 추가" class="btn" onclick="selectTest()">
+		<input type="reset" value="입력 취소" class="btn">
+		
+		<br><br>
+		
+		<table id="memberList">
+			<tr>
+				<td>이름</td>
+				<td>주민번호</td>
+				<td>지역</td>
+				<td>부서</td>
+				<td>직위</td>
+				<td>기본급</td>
+		</table>
+	</form>
+</div>
+
+</body>
+</html>

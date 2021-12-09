@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JsonTest04.html</title>
+<script type="text/javascript">
+	
+	var myJsonObject4 =
+	{
+		//@ 객체 『myJsonObject4』 포함되어 있는 함수이므로 → 메소드 
+		"test" : function()
+		{
+			alert("Method Test~!!!");
+		}
+	}
+	
+</script>
+
+</head>
+<body>
+
+	<input type="button" value="click1" onclick="myJsonObject4.test" />
+	<!-- 실행 X -->
+	
+	<input type="button" value="click2" onclick="alert(myJsonObject4.test)" />
+	<!-- 문자열 형태로 띄워짐 → 기능 X -->
+	
+	<br /><br />
+	
+	<input type="button" value="click3" onclick="alert(myJsonObject4.test())" />
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test013.html</title>
+
+<script type="text/javascript">
+
+	/* 이벤트 등록 방법 ② */
+	// 전역변수이므로, 이것이 읽힐 때 해당 함수를 실행시킨다는 의미
+	document.onloda = windowOnload();
+	
+	function windowOnload()
+	{
+		alert("경고창~!!!");
+	}
+
+</script>
+
+</head>
+
+<!-- 이벤트 등록 방법 ① -->
+<body onload="windowOnload()">
+
+<h1>김진희</h1>
+<h2>배고프다~!!!</h2>
+<h3>졸리다~!!!</h3>
+
+</body>
+</html>

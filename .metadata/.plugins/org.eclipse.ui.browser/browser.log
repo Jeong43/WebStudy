@@ -1,0 +1,263 @@
+
+10월 07, 2021 09:05:09.25 NEW SESSION
+10월 07, 2021 09:05:09.25 [7528:4484:1007/090509.252:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 09:05:13.35 [7528:4484:1007/090513.349:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 09:06:22.27 [11440:11908:1007/090622.276:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 09:06:24.76 [11440:11908:1007/090624.766:ERROR:device_event_log_impl.cc(214)] [09:06:24.766] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 09:07:25.32 [11440:11908:1007/090725.320:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 09:11:12.06 [8316:8828:1007/091112.067:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 09:11:14.41 [8316:8828:1007/091114.412:ERROR:device_event_log_impl.cc(214)] [09:11:14.412] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 09:11:24.87 [8316:8828:1007/091124.869:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 09:13:19.28 [12912:11596:1007/091319.281:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 09:13:22.07 [12912:11596:1007/091322.075:ERROR:device_event_log_impl.cc(214)] [09:13:22.075] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 09:21:25.00 [12912:11596:1007/092125.007:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 09:25:01.55 [3800:11924:1007/092501.554:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 09:25:03.83 [3800:11924:1007/092503.831:ERROR:device_event_log_impl.cc(214)] [09:25:03.831] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 09:25:10.03 [3800:11924:1007/092510.033:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 10:03:54.06 [476:17120:1007/100354.062:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 10:03:56.37 [476:17120:1007/100356.371:ERROR:device_event_log_impl.cc(214)] [10:03:56.371] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 10:08:19.97 [476:17120:1007/100819.976:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 10:15:37.45 [22712:22532:1007/101537.450:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 10:15:39.95 [22712:22532:1007/101539.959:ERROR:device_event_log_impl.cc(214)] [10:15:39.958] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 12:26:25.06 [22712:22532:1007/122625.068:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 12:33:19.43 [2000:34188:1007/123319.433:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 12:33:21.97 [2000:34188:1007/123321.976:ERROR:device_event_log_impl.cc(214)] [12:33:21.976] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 12:39:28.76 [2000:34188:1007/123928.763:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 12:39:35.05 [39152:39860:1007/123935.052:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 12:39:37.42 [39152:39860:1007/123937.424:ERROR:device_event_log_impl.cc(214)] [12:39:37.424] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 12:49:44.99 [39152:39860:1007/124944.996:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+
+10월 07, 2021 14:08:44.34 NEW SESSION
+10월 07, 2021 14:08:44.34 [17880:18596:1007/140844.340:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 14:08:46.69 [17880:18596:1007/140846.694:ERROR:device_event_log_impl.cc(214)] [14:08:46.695] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 15:18:56.93 [17880:18596:1007/151856.937:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 15:26:01.89 [26044:13116:1007/152601.898:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 15:26:04.26 [26044:13116:1007/152604.264:ERROR:device_event_log_impl.cc(214)] [15:26:04.265] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 15:26:06.06 [26044:13116:1007/152606.063:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 15:30:19.01 [9924:27968:1007/153019.010:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 15:30:21.45 [9924:27968:1007/153021.458:ERROR:device_event_log_impl.cc(214)] [15:30:21.458] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 15:30:28.15 [9924:27968:1007/153028.158:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+
+10월 07, 2021 16:02:37.05 NEW SESSION
+10월 07, 2021 16:02:37.05 [34920:34248:1007/160237.054:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 16:02:39.62 [34920:34248:1007/160239.620:ERROR:device_event_log_impl.cc(214)] [16:02:39.619] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 16:08:05.18 [34920:34248:1007/160805.181:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 16:12:24.38 [30324:33824:1007/161224.383:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 16:12:28.48 [30324:33824:1007/161228.482:ERROR:device_event_log_impl.cc(214)] [16:12:28.483] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 16:22:25.51 [30324:33824:1007/162225.512:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 16:39:30.20 [40276:38916:1007/163930.203:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 16:39:32.56 [40276:38916:1007/163932.568:ERROR:device_event_log_impl.cc(214)] [16:39:32.567] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 16:39:50.19 [40276:38916:1007/163950.193:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 16:42:30.57 [18188:42620:1007/164230.570:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 16:42:33.06 [18188:42620:1007/164233.063:ERROR:device_event_log_impl.cc(214)] [16:42:33.063] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 16:42:56.56 [18188:42620:1007/164256.562:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 16:45:22.87 [43516:43716:1007/164522.872:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 07, 2021 16:45:25.46 [43516:43716:1007/164525.469:ERROR:device_event_log_impl.cc(214)] [16:45:25.469] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 07, 2021 17:57:27.30 [43516:43716:1007/175727.301:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 08, 2021 12:06:20.31 [67724:67720:1008/120620.314:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 08, 2021 12:06:22.93 [67724:67720:1008/120622.937:ERROR:device_event_log_impl.cc(214)] [12:06:22.937] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 08, 2021 20:14:34.91 [67724:67720:1008/201434.905:ERROR:device_event_log_impl.cc(214)] [20:14:34.903] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+
+10월 12, 2021 02:15:17.92 NEW SESSION
+10월 12, 2021 02:15:17.92 [49900:17480:1012/021517.911:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 12, 2021 02:15:20.27 [49900:17480:1012/021520.276:ERROR:device_event_log_impl.cc(214)] [02:15:20.276] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 12, 2021 02:15:20.27 [49900:17480:1012/021520.277:ERROR:device_event_log_impl.cc(214)] [02:15:20.277] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 12, 2021 02:15:47.95 [49900:17480:1012/021547.951:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+
+10월 12, 2021 11:11:12.15 NEW SESSION
+10월 12, 2021 11:11:12.15 [3244:18296:1012/111112.122:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 12, 2021 11:11:15.70 [3244:18296:1012/111115.704:ERROR:device_event_log_impl.cc(214)] [11:11:15.704] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 12, 2021 11:44:53.53 [3244:18296:1012/114453.531:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 12, 2021 11:49:00.39 [25604:24912:1012/114900.392:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 12, 2021 11:49:03.99 [25604:24912:1012/114903.996:ERROR:device_event_log_impl.cc(214)] [11:49:03.996] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 12, 2021 12:10:41.48 [25604:24912:1012/121041.483:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 12, 2021 12:19:50.63 [30344:19348:1012/121950.632:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 12, 2021 12:19:53.04 [30344:19348:1012/121953.043:ERROR:device_event_log_impl.cc(214)] [12:19:53.043] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 12, 2021 12:20:16.43 [30344:19348:1012/122016.436:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 12, 2021 12:29:20.40 [29992:26004:1012/122920.403:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 12, 2021 12:29:23.99 [29992:26004:1012/122923.996:ERROR:device_event_log_impl.cc(214)] [12:29:23.995] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+10월 13, 2021 09:32:42.75 NEW SESSION
+10월 13, 2021 09:32:42.75 [18376:2992:1013/093242.756:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 13, 2021 09:32:46.29 [18376:2992:1013/093246.298:ERROR:device_event_log_impl.cc(214)] [09:32:46.298] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 13, 2021 17:00:17.13 [18376:2992:1013/170017.133:ERROR:CONSOLE(1)] "TypeError: Cannot read properties of undefined (reading 'indexOf') TypeError: Cannot read properties of undefined (reading 'indexOf')
+10월 13, 2021 17:00:17.14     at Fi.contentType (devtools://devtools/bundled/core/sdk/sdk.js:1:292808)
+10월 13, 2021 17:00:17.14     at new St (devtools://devtools/bundled/models/bindings/bindings.js:1:60352)
+10월 13, 2021 17:00:17.14     at bt._resourceAdded (devtools://devtools/bundled/models/bindings/bindings.js:1:59511)
+10월 13, 2021 17:00:17.14     at ji.dispatchEventToListeners (devtools://devtools/bundled/core/common/common.js:1:18378)
+10월 13, 2021 17:00:17.14     at qi._addRequest (devtools://devtools/bundled/core/sdk/sdk.js:1:309537)
+10월 13, 2021 17:00:17.14     at ji._onRequestFinished (devtools://devtools/bundled/core/sdk/sdk.js:1:300158)
+10월 13, 2021 17:00:17.14     at et.dispatchEventToListeners (devtools://devtools/bundled/core/common/common.js:1:18378)
+10월 13, 2021 17:00:17.14     at ht._finishNetworkRequest (devtools://devtools/bundled/core/sdk/sdk.js:1:108989)
+10월 13, 2021 17:00:17.15     at ht.loadingFinished (devtools://devtools/bundled/core/sdk/sdk.js:1:103937)
+10월 13, 2021 17:00:17.15     at m.dispatch (devtools://devtools/bundled/core/protocol_client/protocol_client.js:1:8039)", source: devtools://devtools/bundled/core/host/host.js (1)
+
+10월 14, 2021 09:20:00.26 NEW SESSION
+10월 14, 2021 09:20:00.26 [19408:18328:1014/092000.262:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 14, 2021 09:20:02.81 [19408:18328:1014/092002.812:ERROR:device_event_log_impl.cc(214)] [09:20:02.813] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 14, 2021 17:58:24.58 [19408:18328:1014/175824.584:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+
+10월 15, 2021 09:14:24.50 NEW SESSION
+10월 15, 2021 09:14:24.51 [19896:19900:1015/091424.506:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 15, 2021 09:14:27.93 [19896:19900:1015/091427.932:ERROR:device_event_log_impl.cc(214)] [09:14:27.932] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 15, 2021 11:27:57.68 [19896:19900:1015/112757.681:ERROR:CONSOLE(1)] "TypeError: Cannot read properties of undefined (reading 'indexOf') TypeError: Cannot read properties of undefined (reading 'indexOf')
+10월 15, 2021 11:27:57.69     at Fi.contentType (devtools://devtools/bundled/core/sdk/sdk.js:1:292808)
+10월 15, 2021 11:27:57.69     at new St (devtools://devtools/bundled/models/bindings/bindings.js:1:60352)
+10월 15, 2021 11:27:57.70     at bt._resourceAdded (devtools://devtools/bundled/models/bindings/bindings.js:1:59511)
+10월 15, 2021 11:27:57.70     at ji.dispatchEventToListeners (devtools://devtools/bundled/core/common/common.js:1:18378)
+10월 15, 2021 11:27:57.70     at qi._addRequest (devtools://devtools/bundled/core/sdk/sdk.js:1:309537)
+10월 15, 2021 11:27:57.70     at ji._onRequestFinished (devtools://devtools/bundled/core/sdk/sdk.js:1:300158)
+10월 15, 2021 11:27:57.70     at et.dispatchEventToListeners (devtools://devtools/bundled/core/common/common.js:1:18378)
+10월 15, 2021 11:27:57.70     at ht._finishNetworkRequest (devtools://devtools/bundled/core/sdk/sdk.js:1:108989)
+10월 15, 2021 11:27:57.71     at ht.loadingFinished (devtools://devtools/bundled/core/sdk/sdk.js:1:103937)
+10월 15, 2021 11:27:57.71     at m.dispatch (devtools://devtools/bundled/core/protocol_client/protocol_client.js:1:8039)", source: devtools://devtools/bundled/core/host/host.js (1)
+10월 15, 2021 16:40:27.81 [19896:19900:1015/164027.811:ERROR:device_event_log_impl.cc(214)] [16:40:27.805] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+10월 15, 2021 16:40:27.82 [19896:19900:1015/164027.823:ERROR:device_event_log_impl.cc(214)] [16:40:27.821] USB: usb_service_win.cc:281 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+
+10월 18, 2021 14:11:49.87 NEW SESSION
+10월 18, 2021 14:11:49.87 [16696:16700:1018/141149.868:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 18, 2021 14:11:52.29 [16696:16700:1018/141152.292:ERROR:device_event_log_impl.cc(214)] [14:11:52.292] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 18, 2021 14:11:52.29 [16696:16700:1018/141152.292:ERROR:device_event_log_impl.cc(214)] [14:11:52.292] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 18, 2021 14:49:20.12 [16696:16700:1018/144920.122:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 18, 2021 17:47:50.76 [20364:20700:1018/174750.765:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 18, 2021 17:47:54.71 [20364:20700:1018/174754.717:ERROR:device_event_log_impl.cc(214)] [17:47:54.717] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+10월 19, 2021 10:20:53.02 NEW SESSION
+10월 19, 2021 10:20:53.02 [21972:21980:1019/102053.023:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 19, 2021 10:20:55.56 [21972:21980:1019/102055.565:ERROR:device_event_log_impl.cc(214)] [10:20:55.565] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 19, 2021 16:16:54.52 [21972:21980:1019/161654.525:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 19, 2021 16:17:29.93 [51832:52780:1019/161729.937:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 19, 2021 16:17:32.91 [51832:52780:1019/161732.916:ERROR:device_event_log_impl.cc(214)] [16:17:32.916] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 19, 2021 16:17:34.14 [51832:52780:1019/161734.145:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 19, 2021 16:18:56.03 [52860:52636:1019/161856.031:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 19, 2021 16:18:58.53 [52860:52636:1019/161858.537:ERROR:device_event_log_impl.cc(214)] [16:18:58.537] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 19, 2021 16:18:59.52 [52860:52636:1019/161859.526:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 19, 2021 16:19:27.90 [50804:51096:1019/161927.908:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 19, 2021 16:19:30.34 [50804:51096:1019/161930.340:ERROR:device_event_log_impl.cc(214)] [16:19:30.340] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+10월 20, 2021 09:43:37.63 NEW SESSION
+10월 20, 2021 09:43:37.63 [18180:18516:1020/094337.633:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 20, 2021 09:43:40.15 [18180:18516:1020/094340.155:ERROR:device_event_log_impl.cc(214)] [09:43:40.155] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 20, 2021 18:03:05.97 [18180:18516:1020/180305.978:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 20, 2021 18:07:01.57 [39656:39568:1020/180701.569:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 20, 2021 18:07:03.82 [39656:39568:1020/180703.820:ERROR:device_event_log_impl.cc(214)] [18:07:03.820] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 20, 2021 18:07:03.82 [39656:39568:1020/180703.820:ERROR:device_event_log_impl.cc(214)] [18:07:03.820] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 20, 2021 20:16:07.81 [39656:39568:1020/201607.816:ERROR:device_event_log_impl.cc(214)] [20:16:07.815] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+10월 20, 2021 20:37:14.83 [39656:39568:1020/203714.834:ERROR:device_event_log_impl.cc(214)] [20:37:14.834] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+10월 20, 2021 20:37:14.85 [39656:39568:1020/203714.851:ERROR:device_event_log_impl.cc(214)] [20:37:14.848] USB: usb_service_win.cc:281 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+10월 20, 2021 23:01:03.97 [39656:39568:1020/230103.964:ERROR:device_event_log_impl.cc(214)] [23:01:03.961] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+
+10월 21, 2021 09:14:05.34 NEW SESSION
+10월 21, 2021 09:14:05.34 [15612:13808:1021/091405.340:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 21, 2021 09:14:07.61 [15612:13808:1021/091407.615:ERROR:device_event_log_impl.cc(214)] [09:14:07.615] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 21, 2021 12:15:14.95 [15612:13808:1021/121514.948:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 21, 2021 12:15:27.30 [11868:5908:1021/121527.308:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 21, 2021 12:15:29.75 [11868:5908:1021/121529.755:ERROR:device_event_log_impl.cc(214)] [12:15:29.755] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 21, 2021 21:10:19.39 [11868:10744:1021/211019.394:ERROR:connection_handler_impl.cc(471)] Timed out waiting for GCM Protocol buffer.
+10월 21, 2021 22:04:44.99 [11868:5908:1021/220444.990:ERROR:device_event_log_impl.cc(214)] [22:04:44.989] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+
+10월 25, 2021 09:39:07.98 NEW SESSION
+10월 25, 2021 09:39:07.98 [33296:33292:1025/093907.979:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+10월 25, 2021 09:39:10.40 [33296:33292:1025/093910.404:ERROR:device_event_log_impl.cc(214)] [09:39:10.404] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 25, 2021 17:48:49.03 [33296:33292:1025/174849.037:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+
+10월 26, 2021 09:42:12.52 NEW SESSION
+10월 26, 2021 09:42:12.52 [17644:17612:1026/094212.523:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+10월 26, 2021 09:42:12.52 [17644:17612:1026/094212.523:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+10월 26, 2021 09:42:12.52 [17644:17612:1026/094212.523:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+10월 26, 2021 09:42:12.52 [17644:17612:1026/094212.524:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+10월 26, 2021 09:42:12.52 [17644:16088:1026/094212.527:ERROR:device_event_log_impl.cc(214)] [09:42:12.527] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 26, 2021 10:33:18.94 [19884:280:1026/103318.940:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+10월 26, 2021 10:33:18.94 [19884:280:1026/103318.940:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+10월 26, 2021 10:33:18.94 [19884:280:1026/103318.940:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+10월 26, 2021 10:33:18.94 [19884:280:1026/103318.944:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+10월 26, 2021 10:33:18.94 [19884:9236:1026/103318.944:ERROR:device_event_log_impl.cc(214)] [10:33:18.944] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 27, 2021 09:42:59.95 [29596:29260:1027/094259.953:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+10월 27, 2021 09:42:59.95 [29596:29260:1027/094259.953:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+10월 27, 2021 09:42:59.95 [29596:29260:1027/094259.953:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+10월 27, 2021 09:42:59.95 [29596:31492:1027/094259.957:ERROR:device_event_log_impl.cc(214)] [09:42:59.957] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 27, 2021 09:42:59.95 [29596:29260:1027/094259.957:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+10월 27, 2021 09:44:31.07 [34008:29176:1027/094431.070:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+10월 27, 2021 09:44:31.07 [34008:29176:1027/094431.070:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+10월 27, 2021 09:44:31.07 [34008:29176:1027/094431.070:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+10월 27, 2021 09:44:31.07 [34008:34064:1027/094431.071:ERROR:device_event_log_impl.cc(214)] [09:44:31.071] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 27, 2021 09:44:31.07 [34008:29176:1027/094431.072:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+
+10월 27, 2021 14:42:34.19 NEW SESSION
+10월 27, 2021 14:42:34.19 [40912:40316:1027/144234.184:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+10월 27, 2021 14:42:34.19 [40912:40316:1027/144234.185:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+10월 27, 2021 14:42:34.19 [40912:40316:1027/144234.185:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+10월 27, 2021 14:42:34.19 [40912:40316:1027/144234.190:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+10월 27, 2021 14:42:34.19 [40912:40952:1027/144234.191:ERROR:device_event_log_impl.cc(214)] [14:42:34.191] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+10월 28, 2021 11:33:25.12 NEW SESSION
+10월 28, 2021 11:33:25.12 [19732:18136:1028/113325.119:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+10월 28, 2021 11:33:25.12 [19732:18136:1028/113325.119:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+10월 28, 2021 11:33:25.12 [19732:18136:1028/113325.119:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+10월 28, 2021 11:33:25.12 [19732:18136:1028/113325.121:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+10월 28, 2021 11:33:25.12 [19732:20040:1028/113325.122:ERROR:device_event_log_impl.cc(214)] [11:33:25.122] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 28, 2021 11:33:25.12 [19732:20040:1028/113325.123:ERROR:device_event_log_impl.cc(214)] [11:33:25.123] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 28, 2021 11:35:33.83 [6908:20928:1028/113533.834:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+10월 28, 2021 11:35:33.83 [6908:20928:1028/113533.834:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+10월 28, 2021 11:35:33.83 [6908:20928:1028/113533.834:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+10월 28, 2021 11:35:33.83 [6908:11764:1028/113533.835:ERROR:device_event_log_impl.cc(214)] [11:35:33.835] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 28, 2021 11:35:33.83 [6908:11764:1028/113533.836:ERROR:device_event_log_impl.cc(214)] [11:35:33.836] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 28, 2021 11:35:33.83 [6908:20928:1028/113533.837:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+10월 28, 2021 11:37:26.09 [21140:5220:1028/113726.098:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+10월 28, 2021 11:37:26.09 [21140:5220:1028/113726.098:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+10월 28, 2021 11:37:26.10 [21140:5220:1028/113726.098:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+10월 28, 2021 11:37:26.10 [21140:21104:1028/113726.100:ERROR:device_event_log_impl.cc(214)] [11:37:26.100] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 28, 2021 11:37:26.10 [21140:21104:1028/113726.101:ERROR:device_event_log_impl.cc(214)] [11:37:26.101] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 28, 2021 11:37:26.10 [21140:5220:1028/113726.103:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+10월 28, 2021 11:37:42.71 [21008:20856:1028/113742.716:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+10월 28, 2021 11:37:42.71 [21008:20856:1028/113742.716:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+10월 28, 2021 11:37:42.71 [21008:20856:1028/113742.716:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+10월 28, 2021 11:37:42.71 [21008:21232:1028/113742.717:ERROR:device_event_log_impl.cc(214)] [11:37:42.717] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 28, 2021 11:37:42.71 [21008:21232:1028/113742.718:ERROR:device_event_log_impl.cc(214)] [11:37:42.718] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 28, 2021 11:37:42.71 [21008:20856:1028/113742.719:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+
+10월 29, 2021 09:09:41.58 NEW SESSION
+10월 29, 2021 09:09:41.58 [14776:18804:1029/090941.576:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+10월 29, 2021 09:09:41.58 [14776:18804:1029/090941.576:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+10월 29, 2021 09:09:41.58 [14776:18804:1029/090941.576:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+10월 29, 2021 09:09:41.58 [14776:18804:1029/090941.578:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+10월 29, 2021 09:09:41.59 [14776:16256:1029/090941.591:ERROR:device_event_log_impl.cc(214)] [09:09:41.591] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+10월 29, 2021 15:46:46.18 [14776:15520:1029/154646.169:ERROR:mcs_client.cc(755)] Received close command, resetting connection.
+11월 01, 2021 12:18:36.68 [54416:24988:1101/121836.685:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+11월 01, 2021 12:18:36.68 [54416:24988:1101/121836.685:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+11월 01, 2021 12:18:36.68 [54416:24988:1101/121836.685:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+11월 01, 2021 12:18:36.68 [54416:25932:1101/121836.685:ERROR:device_event_log_impl.cc(214)] [12:18:36.685] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+11월 01, 2021 12:18:36.68 [54416:24988:1101/121836.688:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+11월 01, 2021 12:42:18.85 [60408:55044:1101/124218.853:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+11월 01, 2021 12:42:18.85 [60408:55044:1101/124218.853:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+11월 01, 2021 12:42:18.85 [60408:55044:1101/124218.853:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+11월 01, 2021 12:42:18.85 [60408:58160:1101/124218.853:ERROR:device_event_log_impl.cc(214)] [12:42:18.853] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+11월 01, 2021 12:42:18.85 [60408:55044:1101/124218.858:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+
+11월 02, 2021 14:36:49.18 NEW SESSION
+11월 02, 2021 14:36:49.19 [13916:16768:1102/143649.184:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+11월 02, 2021 14:36:49.19 [13916:16768:1102/143649.184:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+11월 02, 2021 14:36:49.19 [13916:16768:1102/143649.184:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+11월 02, 2021 14:36:49.19 [13916:16768:1102/143649.186:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+11월 02, 2021 14:36:49.19 [13916:19592:1102/143649.187:ERROR:device_event_log_impl.cc(214)] [14:36:49.187] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+11월 02, 2021 16:13:52.65 [6836:20116:1102/161352.657:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+11월 02, 2021 16:13:52.65 [6836:20116:1102/161352.657:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+11월 02, 2021 16:13:52.66 [6836:20116:1102/161352.657:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+11월 02, 2021 16:13:52.66 [6836:25392:1102/161352.659:ERROR:device_event_log_impl.cc(214)] [16:13:52.659] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+11월 02, 2021 16:13:52.66 [6836:20116:1102/161352.663:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+11월 02, 2021 18:03:10.67 [6836:25392:1102/180310.670:ERROR:device_event_log_impl.cc(214)] [18:03:10.669] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+11월 03, 2021 07:19:57.39 [6836:25032:1103/071957.391:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+11월 03, 2021 07:20:23.36 [6836:25032:1103/072023.362:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+11월 03, 2021 07:21:04.83 [6836:25032:1103/072104.837:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+11월 03, 2021 07:22:31.42 [6836:25032:1103/072231.423:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+11월 03, 2021 08:39:49.89 [6836:25032:1103/083949.894:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+11월 03, 2021 08:49:15.80 [6836:25392:1103/084915.808:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+
+12월 08, 2021 09:14:06.89 NEW SESSION
+12월 08, 2021 09:14:06.89 [15664:8104:1208/091406.895:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+12월 08, 2021 09:14:09.82 [15664:12572:1208/091409.827:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+12월 08, 2021 09:14:09.82 [15664:12572:1208/091409.827:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+12월 08, 2021 09:14:09.82 [15664:12572:1208/091409.827:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+12월 08, 2021 09:14:09.82 [15664:12572:1208/091409.829:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+12월 08, 2021 09:14:09.83 [15664:8104:1208/091409.830:ERROR:device_event_log_impl.cc(214)] [09:14:09.830] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 08, 2021 14:09:03.65 [15664:8104:1208/140903.657:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1

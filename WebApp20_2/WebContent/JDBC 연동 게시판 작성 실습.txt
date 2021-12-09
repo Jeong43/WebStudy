@@ -1,0 +1,41 @@
+■■■ JDBC 연동 게시판 작성 실습 ■■■
+
+프로젝트 : WebApp20
+
+○ 물리적 구성 요소
+
+	00. WebApp20_scott.sql
+	
+	01. DBConn.java
+	02. BoardDTO.java
+	03. BoardDAO.java
+	04. MyUtil.java		
+	// 페이징처리 : 수십가지 방법이 있다. 게시판 유형에 따라서도 다르다.
+	// 여러가지 방안들을 찾아보고 연습해보기를 권장한다!
+	// 오늘 수업은 가장 쉬운 방법에 대해 배울 뿐..
+	
+	05. List.jsp		// 목록구성
+	06. Created.jsp		// 글 쓰기 폼
+	07. Created_ok.jsp	// 글 인서트 액션
+	08. Article.jsp
+	09. Updated.jsp		
+	10. Updated_ok.jsp
+	11.	Delete.jsp
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

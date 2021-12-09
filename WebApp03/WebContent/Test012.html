@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test012.html</title>
+
+<script type="text/javascript">
+
+	message = "<h1>Hello~</h1>";
+	document.write(message);
+	
+	alert(message);		
+	// <h1></h1> 태그가 적용되지 않는다.
+	// alert 로 메시지 창이 뜬 후 → 페이지의 내용이 보인다.
+	
+</script>
+
+
+<script type="text/javascript" src="js/alertTest.js"></script>
+<!-- src 로 가져다 쓰는 구문 가운데에 새로운 구문을 넣는 것이 불가능 -->
+<!-- src 로 가져다 쓰는 경우도 삽입된 구문이므로, 해당 js 파일에 없는 변수도 이용 가능 -->
+<!-- 선언된 변수는 여러 번 사용이 가능하다. -->
+
+
+<script type="text/javascript">
+
+	// Date 내장 객체: 현재 시스템의 날짜와 시간
+	// cf. java → var dt = Date().toString();
+	var dt = String(Date());
+	document.write(dt);
+	
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

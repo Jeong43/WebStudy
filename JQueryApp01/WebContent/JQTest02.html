@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JQTest02.html</title>
+<style type="text/css">
+	.item
+	{
+		border: solid 2px red;
+		color: white;
+		background: black;
+	}
+</style>
+
+<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+
+<script type="text/javascript">
+	
+	/* 
+	function test()
+	{
+		alert("함수 호출 확인~!!!");	
+	} 
+	*/
+	/* 
+	$(document).ready(function()
+	{
+		alert("함수 호출 확인~!!!");
+		
+		//※ 이 페이지를 이용하는 사용자가 특별한 이벤트를 발생시키지 않아도
+		//   자동으로 처리될 수 있는 영역
+	});
+	 */
+	
+	$(function()
+	{
+		//alert("함수 호출 확인~!!!");
+		
+		//※ 이 페이지를 이용하는 사용자가 특별한 이벤트를 발생시키지 않아도
+		//   자동으로 처리될 수 있는 영역
+		
+		/* 
+		$("h1").click(function()
+		{
+			//alert("클릭되었네요...");
+			//alert($(this).html());
+			//$(this).html("어떻게 될까요?");
+			$(this).html( $(this).html() +"★" );
+			
+		});
+		*/
+		
+		/* 
+		$("h1").on("click", function()
+		{
+			//alert("클릭 상태에 놓인 컨트롤");
+			alert( $(this).html() );
+		});
+		*/
+		
+		/* 
+		$("h1").one("click", function()
+		{
+			//alert("클릭~!!!");
+			//alert( $(this).html() );
+			
+			$(this).html(function(index, html)
+			{
+				//alert(html);
+				//alert(index);
+				return html + "♥";
+			});
+		});
+		*/
+		
+		/* 
+		$("h1").on(
+		{
+			// mouseeter : 어찌어찌하겠다 → 마우스 진입할 때
+			// mouseleave : 어찌어찌하겠다 → 마우스 빠져나올 때
+			mouseenter:function() { $(this).addClass("item"); }	
+			, mouseleave:function() { $(this).removeClass("item"); }
+		});
+		*/
+		
+		$("h1").hover(function()
+		{
+			$(this).addClass("item");
+		}, function()
+		{
+			$(this).removeClass("item");
+		})
+		
+	});
+	
+	
+</script>
+
+</head>
+<body>
+
+<!-- <h1 onclick="test()">윤유동</h1> -->
+<!-- <h1 class="item">윤유동</h1> -->
+<h1>윤유동</h1>
+<h1>박혜진</h1>
+<h1>박효빈</h1>
+
+</body>
+</html>

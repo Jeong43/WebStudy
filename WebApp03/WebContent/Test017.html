@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test017.html</title>
+
+<style type="text/css">
+	* {font-family: 나눔고딕코딩; font-size: large; font-weight: bold;}
+
+	input:focus {background-color: #eeeedd;}
+	input.btn {width: 80px; font-weight: bold;}
+	input.btn:hover {color: orange;}
+	input.btn:active {color: red;}
+	
+</style>
+
+<script type="text/javascript">
+
+	function coinCheck()
+	{
+		var temp = Number(document.getElementById("money").value);
+		
+		document.getElementById("totalMoney").value = temp;
+		
+		document.getElementById("m500").value = Math.floor(temp/500);
+		temp %= 500;
+		
+		document.getElementById("m100").value = Math.floor(temp/100);
+		temp %= 100;
+		
+		document.getElementById("m50").value = Math.floor(temp/50);
+		temp %= 50;
+		
+		document.getElementById("m10").value = Math.floor(temp/10);
+		
+		alert("계산 완료!");
+	}
+
+</script>
+
+
+</head>
+<body>
+
+<!-- 
+	특정 금액(10 ~ 990원)을 사용자로부터 입력받아
+	화폐 단위로 구분하여 출력하는 페이지를 구성한다.
+	화폐 단위는 편의상 오백원, 백원, 오십원, 십원으로 구분한다.
+	
+	HTML, CSS, Javascript 를 활용한다.
+	
+	페이지 기본 레이아웃 구성
+	--------------------------------------------------
+	
+	금액 [			] 원		money
+	
+	<결과><취소>
+	
+	총액	[		] 원		totalMoney
+	오백원	[		] 개		m500
+	백원	[		] 개		m100
+	오십원	[		] 개		m50
+	십원	[		] 개		m10
+	
+	------------------------------------------------- 
+-->
+
+<div>
+	<h4>자바스크립트 활용</h4>
+	<hr>
+</div>
+
+<div>
+	<form>
+		금액 <input type="text" id="money" style="width: 80px;">
+		<input type="button" class="btn" value="결과" onclick='coinCheck()'>
+		<input type="reset" class="btn" value="취소">
+		<hr>
+		
+		총액 <input type="text" id="totalMoney" style="width: 80px;" disabled="disabled">원 <br>
+		500원 <input type="text" id="m500" style="width: 80px;" disabled="disabled">개 <br>
+		100원 <input type="text" id="m100" style="width: 80px;" disabled="disabled">개 <br>
+		50원 <input type="text" id="m50" style="width: 80px;" disabled="disabled">개 <br>
+		10원 <input type="text" id="m10" style="width: 80px;" disabled="disabled">개 <br>
+	</form>
+</div>
+
+<br><hr><br>
+
+<div>
+	<table>
+		<colgroup>
+			<col width="50px">
+			<col width="100px">
+			<col width="30px">
+		</colgroup>
+		<tr>
+			<th scope="col">구분</th>
+			<th scope="col" colspan="2">갯수</th>
+		</tr>
+		<tr>
+			<td>총액</td>
+			<td><input type="text" id="tot" style="width: 80px;" disabled="disabled"></td>
+			<td>원</td>
+		</tr>
+		<tr>
+			<td>500원</td>
+			<td><input type="text" id="coin500" style="width: 80px;" disabled="disabled"></td>
+			<td>개</td>
+		</tr>
+		<tr>
+			<td>100원</td>
+			<td><input type="text" id="coin100" style="width: 80px;" disabled="disabled"></td>
+			<td>개</td>
+		</tr>
+		<tr>
+			<td>50원</td>
+			<td><input type="text" id="coin50" style="width: 80px;" disabled="disabled"></td>
+			<td>개</td>
+		</tr>
+		<tr>
+			<td>10원</td>
+			<td><input type="text" id="coin10" style="width: 80px;" disabled="disabled"></td>
+			<td>개</td>
+		</tr>
+	</table>
+</div>
+
+
+</body>
+</html>

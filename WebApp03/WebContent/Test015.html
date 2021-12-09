@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test015.html</title>
+
+<style type="text/css">
+	input.box:focus 
+	{
+		background-color: yellow;
+	}
+	
+	input.boxSu
+	{
+		width: 50px;
+	}
+</style>
+
+<script type="text/javascript">
+
+	function btnAonclick()
+	{
+		//alert("A버튼 클릭~!!!");
+		//alert(document.getElementById("txtLeft"));		//--==>> [object HTMLInputElement]
+		//alert(document.getElementById("txtLeft").value);
+		
+		var txt01 = document.getElementById("txtLeft");
+		var txt02 = document.getElementById("txtRight");
+		
+		var leftStr = txt01.value;
+		
+		txt02.value = leftStr;
+	}
+
+	function btnBonclick()
+	{
+		//alert("B버튼 클릭~!!!");
+		
+		var txt01 = document.getElementById("txtLeft");
+		var txt02 = document.getElementById("txtRight");
+		
+		var rightStr = txt02.value;
+		txt01.value = rightStr;
+	}
+	
+	function btnResultonclick()
+	{
+		var sui1Str = document.getElementById("txtSui1").value;
+		var sui2Str = document.getElementById("txtSui2").value;
+		
+		//var res = sui1Str + sui2Str;
+		//var res = parseInt(sui1Str) + parseInt(sui2Str);	// → 내장함수		
+		var res = Number(sui1Str) + Number(sui2Str);		// → 생성자 함수
+				
+		document.getElementById("txtResult").value = res;
+		
+		//--==>>
+		// document.getElementById("txtResult").value
+		// = parseInt(document.getElementById("txtSui1").value) + parseInt(document.getElementById("txtSui2").value);
+	}
+</script>
+
+
+</head>
+<body>
+
+<div>
+	<br>
+	<input type="text" class="box" id="txtLeft">
+	<input type="button" value="A버튼" class="btn" id="btnA" onclick="btnAonclick()">
+	<input type="button" value="B버튼" class="btn" id="btnB" onclick="btnBonclick()">
+	<input type="text" class="box" id="txtRight">
+	<hr>
+	<input type="text" class="boxSu" id="txtSui1">
+	+
+	<input type="text" class="boxSu" id="txtSui2">
+	<input type="button" value=" = " class="btn" id="btnResult" onclick="btnResultonclick()">
+	<input type="text" class="boxSu" id="txtResult">
+</div>
+
+</body>
+</html>

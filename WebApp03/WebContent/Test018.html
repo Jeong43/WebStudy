@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test018.html</title>
+
+<style type="text/css">
+	* {font-family: 나눔고딕코딩; font-size: large; font-weight: bolder;}
+	input:focus {background-color: #eeeedd;}
+	input.btn {width: 150px; font-weight: bold;}
+	input.btn:hover {color: orange;}
+	input.btn:active {color: red;}
+	td {text-align: center;}
+	.txtName {text-align: center;}
+	.txtScore {text-align: right;}
+	.txt {text-align: center;}
+		
+</style>
+
+<script type="text/javascript">
+	function actionPerformed()
+	{
+		var korStr = document.getElementById("kor").value;
+		var nKor = parseInt(korStr);
+		
+		var engStr = document.getElementById("eng").value;
+		var nEng = parseInt(engStr);
+		
+		var matStr = document.getElementById("mat").value;
+		var nMat = parseInt(matStr);
+		
+		var nTot = 0;
+		var nAvg = 0;
+		var panStr = "";
+		
+		nTot = nKor + nEng + nMat;
+		nAvg = Math.round(nTot/3);
+		document.getElementById("avg").value = nAvg;
+				
+		
+		if(nKor>=40 && nEng>=40 && nMat>=40 && nAvg>=60)
+		{
+			panStr = "합격";
+		}
+		else if (nAvg>=60)
+		{	
+			panStr = "과락";
+		}
+		else 
+		{
+			panStr = "불합격";
+		}
+		
+		document.getElementById("pan").value = panStr;
+	}
+</script>
+
+</head>
+<body>
+
+<!-- 
+	사용자로부터 이름, 국어점수, 영어점수, 수학점수를 입력 받아
+	평균점수와 판전경과를 출력하는 페이지를 구성한다.
+	판정결과는 합격, 과락, 불합격 중 하나로 처리한다.
+	
+	합격은 모든 과목 점수가 40점 이상이면서 평균 60점 이상인 경우
+	과락은 평균 60점 이상이지만 한 과목이라도 40점 미만이 존재하는 경우
+	불합격은 평균이 60점 미만인 경우로 처리한다.
+	
+	HTMl, CSS, Javascript 활용
+	
+	페이지 레이아웃
+	-----------------------------------------------------
+	이름		[		]
+	국어점수	[		]
+	영어점수	[		]
+	수학점수	[		]
+	
+	<처리결과확인>
+	평균		판정결과
+	[		]	[		]
+	-----------------------------------------------------
+-->
+
+</body>
+
+<div>
+	<h1>성적처리</h1>
+	<hr>
+</div>
+
+<div>
+	<form>
+		<table style='width: 200px;'>
+			<tr>
+				<th>이름</th>
+				<td><input type="text" id="name" style="width: 80px;"></td>
+			</tr>
+			<tr>
+				<th>국어점수</th>
+				<td style="text-align: right">
+					<input type="text" id="kor" class="txtScore" style="width: 80px;">
+				</td>
+			</tr>
+			<tr>
+				<th>영어점수</th>
+				<td style="text-align: right">
+					<input type="text" id="eng" class="txtScore" style="width: 80px;">
+				</td>
+			</tr>
+			<tr>
+				<th>수학점수</th>
+				<td style="text-align: right">
+					<input type="text" id="mat" class="txtScore" style="width: 80px;">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="button" class="btn" value="처리결과확인" style="width: 100%;" onclick=actionPerformed()>
+				</td>
+			</tr>
+			<tr>
+				<th>평균</th>
+				<th>판정결과</th>
+			</tr>
+			<tr>
+				<td><input type="text" class="result" id="avg" disabled="disabled" style="width: 80px;"></td>
+				<td><input type="text" class="result" id="pan" disabled="disabled" style="width: 80px;"></td>
+			</tr>								
+		</table>
+	</form>
+</div>
+
+
+<br><br><br><hr><br><br><br>
+<!-- <div>
+	<form>
+		이름 <input type="text" id="name" style="width: 80px;"><br>
+		국어점수 <input type="text" class="score" id="kor"><br>
+		영어점수 <input type="text" class="score" id="eng"><br>
+		수학점수 <input type="text" class="score" id="mat"><br>
+		
+		<br>
+		
+		처리결과확인<br>
+		평균 판정결과<br>
+		<input type="text" class="result" id="avg" disabled="disabled">
+		<input type="text" class="result" id="res" disabled="disabled">
+	</form>
+</div> -->
+
+</html>
