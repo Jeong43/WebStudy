@@ -269,3 +269,26 @@
 12월 10, 2021 09:29:12.20 [18024:1032:1210/092912.198:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
 12월 10, 2021 09:29:12.20 [18024:1032:1210/092912.203:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
 12월 10, 2021 09:29:12.20 [18024:18016:1210/092912.206:ERROR:device_event_log_impl.cc(214)] [09:29:12.206] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+12월 17, 2021 10:06:58.70 NEW SESSION
+12월 17, 2021 10:06:58.70 [22448:21648:1217/100658.702:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+12월 17, 2021 10:07:01.77 [22448:22948:1217/100701.772:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+12월 17, 2021 10:07:01.77 [22448:22948:1217/100701.772:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+12월 17, 2021 10:07:01.77 [22448:22948:1217/100701.772:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+12월 17, 2021 10:07:01.77 [22448:22948:1217/100701.774:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+12월 17, 2021 10:07:01.77 [22448:21648:1217/100701.777:ERROR:device_event_log_impl.cc(214)] [10:07:01.777] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 17, 2021 12:25:58.96 [22448:21648:1217/122558.960:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+12월 17, 2021 12:26:04.98 [22708:3584:1217/122604.986:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+12월 17, 2021 12:26:07.75 [22708:33588:1217/122607.756:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+12월 17, 2021 12:26:07.76 [22708:33588:1217/122607.756:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+12월 17, 2021 12:26:07.76 [22708:33588:1217/122607.756:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+12월 17, 2021 12:26:07.76 [22708:3584:1217/122607.758:ERROR:device_event_log_impl.cc(214)] [12:26:07.758] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 17, 2021 12:26:07.76 [22708:33588:1217/122607.764:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+12월 17, 2021 12:31:36.23 [22708:3584:1217/123136.231:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+12월 17, 2021 12:31:53.61 [35064:23248:1217/123153.611:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
+12월 17, 2021 12:31:56.29 [35064:23248:1217/123156.294:ERROR:device_event_log_impl.cc(214)] [12:31:56.294] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 17, 2021 12:31:56.32 [35064:32392:1217/123156.321:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+12월 17, 2021 12:31:56.34 [35064:32392:1217/123156.338:ERROR:chrome_browser_main_extra_parts_metrics.cc(233)] crbug.com/1216328: Checking Bluetooth availability ended.
+12월 17, 2021 12:31:56.34 [35064:32392:1217/123156.338:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+12월 17, 2021 12:31:56.37 [35064:32392:1217/123156.368:ERROR:chrome_browser_main_extra_parts_metrics.cc(240)] crbug.com/1216328: Checking default browser status ended.
+12월 17, 2021 14:04:03.92 [35064:23248:1217/140403.927:ERROR:upgrade_util_win.cc(63)] CoCreate ProcessLauncherClass failed; hr = 800700c1
